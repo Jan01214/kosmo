@@ -1,0 +1,131 @@
+.contacts{
+	padding: 60px 0 100px 0;
+}
+.contacts__row {
+	display: flex;
+	justify-content: space-between;	
+	flex: 0 0 50%;
+	margin: 0 -15px;
+}
+.contacts__body {
+	padding: 0 15px;
+	display: flex;
+	flex-direction: column;
+	margin: -10px 0;
+}
+.contacts__title {
+font-weight: bold;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #000000;
+padding: 10px 0;
+
+margin-bottom: 15px;
+}
+.contacts__time {
+	padding: 10px 0;
+}
+.contacts__title_mini {
+font-weight: 500;
+font-size: 24px;
+line-height: 130%;
+/* or 31px */
+
+
+/* Тестовый */
+
+color: #066D66;
+
+margin-bottom: 15px;
+}
+
+.contacts__tell {
+	padding: 10px 0;
+}
+.contacts__adress {
+	padding: 10px 0;
+}
+.contacts__social {
+	padding: 10px 0;
+
+	display: flex;
+}
+.contacts__social a:nth-child(n+2){
+	margin-left: 15px;
+}
+.contacts__form {
+	padding: 10px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+.contacts__select {
+font-size: 24px;
+line-height: 154%;
+/* or 37px */
+
+
+color: #066D66;
+
+margin: 0px 0 20px;
+width: 86%;
+}
+.contacts__info {
+	display: grid;
+	grid-template-columns: 45% 35%;
+	column-gap: 30px;
+}
+.contacts__data {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 150%;
+	/* identical to box height, or 27px */
+
+
+	color: #066D66;
+    border: none;
+    border-bottom: 2px solid #066D66;
+    padding: 0 0 10px;
+}
+.contacts__text {
+font-weight: 500;
+font-size: 12px;
+line-height: 146.83%;
+/* or 18px */
+
+
+color: #066D66;
+margin: 20px 0;
+}
+.contacts__btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 146.83%;
+/* or 23px */
+
+
+color: #FFFFFF;
+background: #066D66;
+border-radius: 15px;
+
+padding: 14px 85px;
+border: none;
+
+justify-self:start;	
+}
+.contacts__img  img{
+	max-width: 100%;
+}
+.contacts__img{
+	padding: 0 15px;
+}
+
+.contacts___content{
+}
+.contacts__dane{
+
+}

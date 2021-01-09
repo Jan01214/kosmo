@@ -1,0 +1,142 @@
+.spec-card__links {
+	margin-bottom: 60px;
+	border-bottom: 1px solid #BEBEBE;
+	align-self: start;
+}
+.spec-card__links a{
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	/* identical to box height */
+
+
+	color: #BEBEBE;
+	position: relative;
+}
+.spec-card a:nth-child(n+2){
+	margin-left: 4px;
+}
+
+.spec-card {
+	padding: 60px 0 100px;
+}
+.spec-card__row {
+	display: flex;
+	flex-direction: column;
+}
+.spec-card__content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.spec-card__body {
+	display: flex;
+	flex-direction: column;
+	margin-right: 30px;
+	margin-bottom: 60px;
+}
+.spec-card__img {
+	margin-bottom: 30px;
+}
+.spec-card__img img{
+	width: 100%;	
+}
+.spec-card__form {
+	background: #066D66;
+border-radius: 10px;
+
+display: flex;
+flex-direction: column;
+
+padding: 20px 25px;
+box-sizing: border-box;
+
+}
+.spec-card__form input[type=text]{
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #D1D1D1;
+padding: 0px 0 0px 10px;
+background: #FFFFFF;
+border-radius: 10px;
+border: none;	
+}
+.spec-card__form input[type=submit]{
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+/* Тестовый */
+
+color: #066D66;
+
+background: #FFFFFF;
+border-radius: 10px;
+padding: 11px 0px;
+border: none;	
+}
+.spec-card__title_form {
+font-size: 18px;
+line-height: 150%;
+/* or 27px */
+
+
+color: #FFFFFF;
+width: 50%;
+margin-bottom: 60px;
+}
+.spec-card__data {
+	display: grid;
+	grid-template-columns: 55% 40%;
+	grid-gap: 20px;
+}
+.spec-card__dane {
+}
+.spec-card__items {
+	display: flex;
+	flex-direction: column;
+	flex: 1 0 0%;
+}
+.spec-card__title {
+font-weight: 500;
+font-size: 30px;
+line-height: 130%;
+/* or 39px */
+
+
+/* Тестовый */
+
+color: #066D66;
+
+margin-bottom: 30px;
+}
+.spec-card__item {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #066D66;
+	padding: 30px 0;
+}
+.spec-card__item:last-child {
+	border-bottom: none;
+}
+.spec-card__item:nth-child() {
+	display: flex;
+	justify-content: space-between;
+}
+.spec-card__title_mini {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+    flex: 0 0 22%;
+}
+.spec-card__text {
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+    flex: 0 0 65%;
+}
