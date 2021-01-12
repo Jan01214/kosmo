@@ -232,6 +232,47 @@
 	    width: 100%;
 	    align-items: center;
 	}
+	.cosmo__item:nth-child(n+2) {
+     	padding-left: 0px; 
+	}
+	.cosmo__inner {
+	    align-items: center;
+	}
+	.cosmo__content {
+	    justify-content: center;	
+	}
+	.cosmo__btns {
+	    justify-content: center;
+	}
+	.cosmo__item {
+	    margin: 30px 0 0 0;
+	}
+	.cosmo__item:nth-child(n+2):after {
+	    display: none;
+	}
+	.cosmo__list {
+	    grid-template-columns: repeat(1, 1fr);
+	    padding: 15px 0;
+	}
+	.uslugi-nav__list{
+	    flex-direction: column;
+	    align-items: center;
+	}
+	.uslugi-nav__list li {
+	    width: 100%;
+	    text-align: center;
+	}
+	.uslugi-form__data {
+	    display: grid;
+	    grid-template-columns: 100%;
+	}
+	.uslugi-form__data input {
+	    padding: 25px 0 25px 0px;
+	    text-align: center;
+	}
+	.uslugi-tell__uslugi-tell__text p {
+	    margin-bottom: 10px;
+	}
 }
 @media all and (max-width: 375px){
 	.spec-galery__cards {
