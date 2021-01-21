@@ -22,9 +22,12 @@
 	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"> -->
 </head>
 <body>
-	<?php require '../html/header.php'; ?>
+	
 
-	<!-- <section class="preview">
+	<?php require 'header.php'; ?>
+
+
+	<section class="preview">
 		<div class="container">
 			<div class="preview__column">
 				<div class="preview__content">
@@ -57,7 +60,7 @@
 				<div class="preview__img"><img class="preview__img1" src="../img/preview/img.png" alt=""></div>			
 			</div>
 		</div>
-	</section> -->
+	</section>
 
 	<section class="categories">
 		<div class="container">
@@ -267,210 +270,11 @@
 		</div>
 	</section>	
 
-	<section class="opinion">
-		<div class="container">
-			<div class="container">
-				<div class="opinion__row">
-					<div class="opinion__title">Отзывы</div>
-					<div class="opinion__slider">
-						<div class=" opinion-slider__container">
-							<div class=" opinion-slider__wrapper">
-								<div class=" opinion-slider__slide">
-										<div class=" opinion-slider-slide__wraper">
-											<div class="opinion__stars">
-												<img src="" alt="">
-												<img src="" alt="">
-												<img src="" alt="">
-												<img src="" alt="">
-												<img src="" alt="">
-											</div>
-											<div class="opinion__date">20 апреля 2020</div>
-											<div class="opinion__text">
-												"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-											</div>
-											<div class="opinion__person">
-												<img src="../img/opinion/person.png" class="opinion__photo">
-												<div class="opinion__body">
-													<div class="opinion__name">Анна Захарова</div>
-													<div class="opinion__prof">Лазерное омоложение</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="swiper-slide opinion-slider__slide">
-											<div class="swiper-slide__wraper opinion-slider-slide__wraper">
-												<div class="opinion__stars">
-													<img src="" alt="">
-													<img src="" alt="">
-													<img src="" alt="">
-													<img src="" alt="">
-													<img src="" alt="">
-												</div>
-												<div class="opinion__date">20 апреля 2020</div>
-												<div class="opinion__text">
-													"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-												</div>
-												<div class="opinion__person">
-													<img src="../img/opinion/person.png" class="opinion__photo">
-													<div class="opinion__body">
-														<div class="opinion__name">Анна Захарова</div>
-														<div class="opinion__prof">Лазерное омоложение</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="swiper-slide opinion-slider__slide">
-											<div class="swiper-slide__wraper opinion-slider-slide__wraper">
-												<div class="opinion__stars">
-													<img src="" alt="">
-													<img src="" alt="">
-													<img src="" alt="">
-													<img src="" alt="">
-													<img src="" alt="">
-												</div>
-												<div class="opinion__date">20 апреля 2020</div>
-												<div class="opinion__text">
-													"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-												</div>
-												<div class="opinion__person">
-													<img src="../img/opinion/person.png" class="opinion__photo">
-													<div class="opinion__body">
-														<div class="opinion__name">Анна Захарова</div>
-														<div class="opinion__prof">Лазерное омоложение</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>		
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>	
+	<?php require 'opinion.php'; ?>
 
-	<section class="blog">
-		<div class="container">
-			<div class="blog__row">
-				<div class="blog__title">Полезно знать</div>
-				<div class="blog__items">
-					<div class="blog__item">
-						<div class="blog__img">
-							<a href="https://jan01214.github.io/kosmo//kosmetic-shop/html/blog.html"><img src="../img/blog/img.png" alt=""></a>
-							<a href="#" class="blog__adv">Полезно</a>
-						</div>
-						<div class="blog__info">
-							<div class="blog__date">16 апреля 2020 г.</div>
-							<div class="blog__tem">Косметология</div>
-						</div>
-						<div class="blog__title_mini">Филлеры: что это такое и кому это нужно?</div>
-						<div class="blog__text">Филлеры – что это такое и стоит ли прибегать к подобной процедуре, направленной на поддержание красоты – таким вопросом задается каждая, только услышав про подобные инъекции. Часто филлеры путают с препаратами, содержащими ботокс, это в корне неправильное мнение.</div>
-					</div>
-					<div class="blog__item">
-						<div class="blog__img">
-							<a href="https://jan01214.github.io/kosmo//kosmetic-shop/html/blog.html"><img src="../img/blog/img.png" alt=""></a>
-							<a href="#" class="blog__adv">Полезно</a>
-						</div>
-						<div class="blog__info">
-							<div class="blog__date">16 апреля 2020 г.</div>
-							<div class="blog__tem">Косметология</div>
-						</div>
-						<div class="blog__title_mini">Филлеры: что это такое и кому это нужно?</div>
-						<div class="blog__text">Филлеры – что это такое и стоит ли прибегать к подобной процедуре, направленной на поддержание красоты – таким вопросом задается каждая, только услышав про подобные инъекции. Часто филлеры путают с препаратами, содержащими ботокс, это в корне неправильное мнение.</div>
-					</div>
-					<div class="blog__item">
-						<div class="blog__img">
-							<a href="https://jan01214.github.io/kosmo//kosmetic-shop/html/blog.html"><img src="../img/blog/img.png" alt=""></a>
-							<a href="#" class="blog__adv">Полезно</a>
-						</div>
-						<div class="blog__info">
-							<div class="blog__date">16 апреля 2020 г.</div>
-							<div class="blog__tem">Косметология</div>
-						</div>
-						<div class="blog__title_mini">Филлеры: что это такое и кому это нужно?</div>
-						<div class="blog__text">Филлеры – что это такое и стоит ли прибегать к подобной процедуре, направленной на поддержание красоты – таким вопросом задается каждая, только услышав про подобные инъекции. Часто филлеры путают с препаратами, содержащими ботокс, это в корне неправильное мнение.</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>	
+	<?php require 'blog.php'; ?>
 
-	<footer class="footer">
-		<div class="container">
-			<div class="footer__row">
-				<div class="footer__items">
-					<div class="footer__item">
-						<div class="footer__logo">
-							<a href="https://jan01214.github.io/kosmo//kosmetic-shop/html/index.html"><img src="../img/footer/logo.svg" alt=""></a>
-						</div>
-						<div class="footer__social">
-							<a href="#"><img src="../img/footer/media__1.svg" alt=""></a>
-							<a href="#"><img src="../img/footer/media__1.svg" alt=""></a>
-							<a href="#"><img src="../img/footer/media__1.svg" alt=""></a>
-							<a href="#"><img src="../img/footer/media__1.svg" alt=""></a>
-						</div>
-					</div>
-					<div class="footer__item">
-						<ul class="footer__list">
-							<li><a href="https://jan01214.github.io/kosmo//kosmetic-shop/html/akciis.html" class="footer__link">Акции</a></li>
-							<li><a href="https://jan01214.github.io/kosmo//kosmetic-shop/html/about.html" class="footer__link">О Компании</a></li>
-							<li><a href="https://jan01214.github.io/kosmo//kosmetic-shop/html/contacts.html" class="footer__link">Контакты</a></li>
-							<li><a href="#" class="footer__link">Бутик</a></li>
-							<li><a href="#" class="footer__link">Доставка и оплата</a></li>
-							<li><a href="https://jan01214.github.io/kosmo//kosmetic-shop/html/uslugi.html" class="footer__link">Услуги</a></li>
-							<li><a href="https://jan01214.github.io/kosmo//kosmetic-shop/html/blog.html" class="footer__link">Блог</a></li>
-						</ul>
-					</div>
-					<div class="footer__item">
-						<div class="footer__tell">
-							<img src="" alt="">
-							<div class="footer__content">
-								<p>+7 (831) 469-01-11</p>
-								<p>+7 (904) 065-12-21</p>
-							</div>
-						</div>
-						<div class="footer__date">
-							<img src="" alt="">
-							<div class="footer__content">
-								<p>Пн-Сб: 9:00-21:00</p>
-								<p>Вс: 10:00-20:00</p>
-							</div>
-						</div>
-						<div class="footer__adres">
-							<img src="" alt="">
-							<p>г. Н.Новгород, ул. М. Ямская, д. 18, к.3</p>
-						</div>
-					</div>
-					<div class="footer__item">
-						<ul class="footer__list">
-							<li><a href="#" class="footer__link">Гинекология</a></li>
-							<li><a href="#" class="footer__link">Хирургия</a></li>
-							<li><a href="#" class="footer__link">Эндокринология</a></li>
-							<li><a href="#" class="footer__link">Отоларингология</a></li>
-							<li><a href="#" class="footer__link">Гастроэнтерология</a></li>
-							<li><a href="#" class="footer__link">Терапия</a></li>
-							<li><a href="#" class="footer__link">Диетология</a></li>
-							<li><a href="#" class="footer__link">Остеопатия</a></li>
-						</ul>
-					</div>
-					<div class="footer__item">
-						<ul class="footer__list">
-							<li><a href="#" class="footer__link">Сексология</a></li>
-							<li><a href="#" class="footer__link">Медицинская психология</a></li>
-							<li><a href="#" class="footer__link">Ортопедия и травматология</a></li>
-							<li><a href="#" class="footer__link">Узи диагностика</a></li>
-							<li><a href="#" class="footer__link">Физиотерапия</a></li>
-							<li><a href="#" class="footer__link">Рефлексотерапия</a></li>
-							<li><a href="#" class="footer__link">Медицинский массаж</a></li>
-							<li><a href="#" class="footer__link">Студия стиля</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>	
+	<?php require 'footer.php'; ?>
 
 	<!-- swiper.js -->
 	<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->

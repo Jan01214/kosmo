@@ -1,6 +1,7 @@
 body{
 	font-family: "Roboto" ,sans-serif;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 .header {
 }
@@ -131,11 +132,11 @@ body{
 
 }
 .preview__title {
-font-weight: bold;
-font-size: 50px;
-line-height: 59px;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 59px;
 
-color: #000;
+	color: #000;
 }
 .preview__items {
 	display: grid;

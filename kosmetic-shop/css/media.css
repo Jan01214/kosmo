@@ -37,9 +37,6 @@
 	}
 }
 @media all and (max-width: 960px){
-	.container{
-		padding: 0;
-	}
 	.preview__img1{
 		width: 100%;
 	}
